@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
     "socket.io": "^2.2.0"
   },
   "devDependencies": {},
@@ -12,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/josh-feinstein/Duel-Server.git"
+    "url": "git+https://github.com/pillboxmediainc/Duel-Server.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/josh-feinstein/Duel-Server/issues"
+    "url": "https://github.com/pillboxmediainc/Duel-Server/issues"
   },
-  "homepage": "https://github.com/josh-feinstein/Duel-Server#readme"
+  "homepage": "https://github.com/pillboxmediainc/Duel-Server#readme"
 }
