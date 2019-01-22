@@ -1,6 +1,6 @@
 module.exports = io => {
   io.on('connection', socket => {
-    console.log(socket.id, ' We read you loud and clear, Client. Over');
+    console.log(socket.id, ' We read you loud and clear, Client. Over.');
     socket.emit('join-game');
 
     socket.on('iwin', () => {
@@ -8,7 +8,7 @@ module.exports = io => {
     });
 
     socket.on('disconnect', () => {
-      console.log(socket.id, 'has disconnected from the server');
+      console.log(socket.id, 'Farewell, Client. Over.');
     });
   });
 };
